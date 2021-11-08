@@ -1,0 +1,94 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!-- Pano2VR project file  -->
+<pano2vrconfig version="6.1.10" rev="18007">
+  <panorama>
+    <id>node1</id>
+    <input>
+      <patch/>
+      <type>auto</type>
+      <filename>C:/Users/3GOMedia/Desktop/grid_hor_cross-01.jpg</filename>
+      <videotype>equi</videotype>
+      <levelpitch>0</levelpitch>
+      <levelroll>0</levelroll>
+    </input>
+    <viewingparameter>
+      <pan/>
+      <tilt/>
+      <fov/>
+      <flyinstart/>
+      <pannorth>0</pannorth>
+    </viewingparameter>
+    <userdata>
+      <capturedatetime>2021-11-04T14:44:42+07:00</capturedatetime>
+      <title>Basic RGB</title>
+      <datetime>11/4/2021 2:44 PM</datetime>
+      <tags>Desktop</tags>
+    </userdata>
+    <floorplans/>
+    <hotspots>
+      <hotspot>
+        <position>
+          <pan>-359.86</pan>
+          <tilt>0.06</tilt>
+          <fov>10</fov>
+        </position>
+        <next>
+          <pan>0</pan>
+          <tilt>0</tilt>
+          <fov>0</fov>
+        </next>
+        <polygon/>
+        <type>point</type>
+        <id>Point01</id>
+        <title>Modal Bootstrap Show</title>
+        <linktype>url</linktype>
+        <linksubtype>unknown</linksubtype>
+        <skinid>hs_button</skinid>
+        <distance>0</distance>
+        <distanceauto>1</distanceauto>
+        <autoplace>0</autoplace>
+        <use3d>0</use3d>
+        <width>0</width>
+        <height>0</height>
+      </hotspot>
+    </hotspots>
+    <output>
+      <placeidcache>{"entries":[]}</placeidcache>
+      <htmlcss>
+        <html>
+          <enabled>1</enabled>
+          <filename>data360/index.html</filename>
+          <values>
+            <value id="css"/>
+            <value id="gginfo">false</value>
+            <value id="htmltitle">$(upt)</value>
+            <value id="jsxml">false</value>
+            <value id="parseanchor">false</value>
+          </values>
+        </html>
+        <facequality/>
+        <transition>
+          <zoomafterinfov>90</zoomafterinfov>
+          <zoomafteroutfov>20</zoomafteroutfov>
+        </transition>
+        <autorotate/>
+        <soundstransition/>
+        <flyintransition/>
+        <hotspottext/>
+        <hotspotstyle/>
+        <webvr/>
+        <tilesize>685</tilesize>
+        <filename>data360/pano.xml</filename>
+        <skinfile>structure_test.ggsk</skinfile>
+        <leveltileenabled>0</leveltileenabled>
+        <quality>100</quality>
+      </htmlcss>
+    </output>
+    <streetview/>
+    <streetviewproject/>
+    <sounds/>
+    <animation>
+      <title>Animation01</title>
+    </animation>
+  </panorama>
+</pano2vrconfig>

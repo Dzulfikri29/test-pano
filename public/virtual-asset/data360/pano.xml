@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<panorama appversion="6.1.10" apprev="18007" id="node1">
+  <input tilescale="1.014599" levelingpitch="0" prev2url="images/grid_hor_cross-01_o_preview_2.jpg" prev5url="images/grid_hor_cross-01_o_preview_5.jpg" tilevrurl="images/grid_hor_cross-01_ovr.jpg" tile4url="images/grid_hor_cross-01_o_4.jpg" tile3url="images/grid_hor_cross-01_o_3.jpg" tile2url="images/grid_hor_cross-01_o_2.jpg" tile0url="images/grid_hor_cross-01_o_0.jpg" prev3url="images/grid_hor_cross-01_o_preview_3.jpg" levelingroll="0" prev0url="images/grid_hor_cross-01_o_preview_0.jpg" tile5url="images/grid_hor_cross-01_o_5.jpg" tilesize="685" tile1url="images/grid_hor_cross-01_o_1.jpg" prev1url="images/grid_hor_cross-01_o_preview_1.jpg" prev4url="images/grid_hor_cross-01_o_preview_4.jpg">
+    <preview color="0x808080"/>
+  </input>
+  <view pannorth="0" fovmode="0">
+    <start projection="4" tilt="0" fov="70" pan="0"/>
+    <flyin projection="9" tilt="-90" fov="170" pan="0"/>
+    <min tilt="-90" fovpixel="2" pan="0"/>
+    <max scaletofit="1" tilt="90" fov="120" fovstereographic="270" pan="360" fovfisheye="360"/>
+  </view>
+  <userdata tags="Desktop" copyright="" heading="0" title="Basic RGB" latitude="" longitude="" nodeid="node1" author="" source="" datetime="11/4/2021 2:44 PM" info="" customnodeid="" description="" comment=""/>
+  <hotspots height="20" width="180" wordwrap="1">
+    <label textcolor="0x000000" borderalpha="1" borderradius="1" background="1" height="20" width="180" bordercolor="0x000000" border="1" backgroundcolor="0xffffff" enabled="1" wordwrap="1" textalpha="1" backgroundalpha="1"/>
+    <polystyle borderalpha="1" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.25098" handcursor="1"/>
+    <hotspot url="" target="_blank" title="Modal Bootstrap Show" tilt="0.06" pan="-359.86" skinid="hs_button" id="Point01" description=""/>
+  </hotspots>
+  <media/>
+  <transition type="crossdissolve" zoomfov="20" blendtime="1" softedge="0" blendcolor="0x000000" enabled="1" zoomafteroutfov="20" zoomafterinfov="90" zoomin="0" zoomout="0" zoomoutpause="1" zoomspeed="2"/>
+  <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
+  <control lockedkeyboard="0" dblclickfullscreen="0" sensitivity="8" rubberband="0" simulatemass="1" speedwheel="1" invertwheel="0" contextprojections="0" lockedkeyboardzoom="0" lockedwheel="0" lockedmouse="0" invertcontrol="1" contextfullscreen="1" hideabout="0"/>
+</panorama>
