@@ -1,0 +1,56 @@
+{
+  "hall" : [
+    {
+      "hs_id" : "lobby_url_1",
+      "link" : [
+        {
+          "lang" : "Bahasa",
+          "link" : "id.youtube.com"
+        },
+        {
+          "lang" : "English",
+          "link" : "en.youtube.com"
+        }
+      ]
+    },
+    {
+      "hs_id" : "lobby_url_2",
+      "link" : [
+        {
+          "lang" : "Bahasa",
+          "link" : "id.youtube.com"
+        },
+        {
+          "lang" : "English",
+          "link" : "en.youtube.com"
+        }
+      ]
+    },
+    {
+      "hs_id" : "lobby_url_3",
+      "link" : [
+        {
+          "lang" : "Bahasa",
+          "link" : "id.youtube.com"
+        },
+        {
+          "lang" : "English",
+          "link" : "en.youtube.com"
+        }
+      ]
+    },
+    {
+      "hs_id" : "lobby_url_4",
+      "link" : [
+        {
+          "lang" : "Bahasa",
+          "link" : "id.youtube.com"
+        },
+        {
+          "lang" : "English",
+          "link" : "en.youtube.com"
+        }
+      ]
+    }
+  ]
+}

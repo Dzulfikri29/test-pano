@@ -1,4 +1,27 @@
-$(function () {});
+var arr_hall = []
+
+$(function () {
+    pano.on('changenode', function () {
+        animatehotspot()
+        $.ajax({
+            type: "get",
+            url: "/virtual-asset/js/hall_link.json",
+            dataType: "json",
+            caches: false,
+            success: function (data) {
+                console.log("jsondata", data)
+                for (var x of data.hall) {
+                    arr_hall.push(x)
+                    // fbox(x.fbox, key)
+                }
+                console.log("arr_hall", arr_hall)
+                // $.each(data.hotspot, function (key, value) {
+                //     fbox(value, key)
+                // })
+            }
+        });
+    })
+});
 
 function showmodal(id) {
     console.log("test")
@@ -8,7 +31,52 @@ function showmodal(id) {
     // $('#'+id+'').show()
 }
 
+function showTooltips() {
+    var hs = pano.getVariableValue('hs_title')
+    var tmp = []
+    console.log(hs)
+    if ($('#' + hs + '').hasClass('active')) {
+        $('#' + hs + '').removeClass('active');
+        $('#' + hs + '').empty();
+    } else {
+        for (var x of arr_hall) {
+            console.log(arr_hall.id)
+            if (x.hs_id == hs) {
+                $('#' + hs + '').addClass('active');
+                tmp = x.link
+                for (var y of tmp) {
+                    // console.log('y', y.link)
+                    var btnlink = ("<a href='" + y.link + "/" + x.hs_id + "/" + y.lang + "' class='btn btn-primary'>" + y.lang + "</a>")
+                    $('#' + hs + '').append('' + btnlink + '')
+                }
+            }
+        }
+        // arr_hall.forEach(e => {
+        //     var btnlink = ("<a href='#" + e_hs_id+ "' class='btn btn-primary'># " + e. + "</a>")
+        //     $('#' + hs + '').append('' +btnlink+ '')
+        // });
+    }
+}
+
 initFireBase();
+
+function animatehotspot() {
+    var deg = [45, 60]
+    deg.forEach(e => {
+        anime({
+            targets: '.footprint_' + e,
+            scale: 1.5,
+            rotateX: [e, e],
+            direction: 'alternate',
+            loop: true,
+            delay: 300,
+            endDelay: 300,
+            duration: 1200,
+            easing: 'easeInOutQuad'
+
+        })
+    });
+}
 
 function initFireBase() {
     var firebaseConfig = {
