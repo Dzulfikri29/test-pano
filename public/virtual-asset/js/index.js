@@ -57,7 +57,7 @@ function showTooltips() {
 initFireBase();
 
 function animatehotspot() {
-    var deg = [45, 60]
+    var deg = [45, 60, 75]
     deg.forEach(e => {
         anime({
             targets: '.footprint_' + e,
