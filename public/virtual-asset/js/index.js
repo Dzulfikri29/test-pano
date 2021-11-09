@@ -1,25 +1,21 @@
 var arr_hall = []
 
 $(function () {
+    $.ajax({
+        type: "get",
+        url: "/virtual-asset/js/hall_link.json",
+        dataType: "json",
+        caches: false,
+        success: function (data) {
+            console.log("jsondata", data)
+            for (var x of data.hall) {
+                arr_hall.push(x)
+            }
+            console.log("arr_hall", arr_hall)
+        }
+    });
     pano.on('changenode', function () {
         animatehotspot()
-        $.ajax({
-            type: "get",
-            url: "/virtual-asset/js/hall_link.json",
-            dataType: "json",
-            caches: false,
-            success: function (data) {
-                console.log("jsondata", data)
-                for (var x of data.hall) {
-                    arr_hall.push(x)
-                    // fbox(x.fbox, key)
-                }
-                console.log("arr_hall", arr_hall)
-                // $.each(data.hotspot, function (key, value) {
-                //     fbox(value, key)
-                // })
-            }
-        });
     })
 });
 
