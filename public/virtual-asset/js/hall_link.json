@@ -5,11 +5,11 @@
       "link" : [
         {
           "lang" : "Bahasa",
-          "link" : "id.youtube.com"
+          "link" : "fhcisummit.com/conference/1/id"
         },
         {
           "lang" : "English",
-          "link" : "en.youtube.com"
+          "link" : "fhcisummit.com/conference/1/en"
         }
       ]
     },
@@ -18,11 +18,11 @@
       "link" : [
         {
           "lang" : "Bahasa",
-          "link" : "id.youtube.com"
+          "link" : "fhcisummit.com/conference/2/id"
         },
         {
           "lang" : "English",
-          "link" : "en.youtube.com"
+          "link" : "fhcisummit.com/conference/2/en"
         }
       ]
     },
@@ -31,11 +31,11 @@
       "link" : [
         {
           "lang" : "Bahasa",
-          "link" : "id.youtube.com"
+          "link" : "fhcisummit.com/conference/3/id"
         },
         {
           "lang" : "English",
-          "link" : "en.youtube.com"
+          "link" : "fhcisummit.com/conference/3/en"
         }
       ]
     },
@@ -44,11 +44,11 @@
       "link" : [
         {
           "lang" : "Bahasa",
-          "link" : "id.youtube.com"
+          "link" : "fhcisummit.com/conference/4/id"
         },
         {
           "lang" : "English",
-          "link" : "en.youtube.com"
+          "link" : "fhcisummit.com/conference/4/en"
         }
       ]
     }

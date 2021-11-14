@@ -106,7 +106,7 @@ function showTooltips() {
         tmp = x.link
         for (var y of tmp) {
           // console.log('y', y.link)
-          var btnlink = ("<a href='" + y.link + "/" + x.hs_id + "/" + y.lang + "' class='btn btn-primary'>" + y.lang + "</a>")
+          var btnlink = ("<a href='" + y.link + "' target='_blank' class='btn btn-custom'>" + y.lang + "</a>")
           $('#' + hs + '').append('' + btnlink + '')
         }
       }

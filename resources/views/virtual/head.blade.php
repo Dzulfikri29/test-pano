@@ -1,6 +1,6 @@
 <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-<title>Basic RGB</title>
+<title>FHCI Summit</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0" />
 <meta name="apple-mobile-web-app-capable" content="yes" />
 <meta name="apple-mobile-web-app-status-bar-style" content="black" />
@@ -20,3 +20,10 @@
     const token = "{{ csrf_token() }}";
     const base_url = "{{ url('') }}";
 </script>
+<style>
+    .btn-custom{
+        color : #d1975f;
+        background-color: white;
+        border-color: #d1975f;
+    }
+</style>
