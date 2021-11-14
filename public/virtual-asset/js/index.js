@@ -8,11 +8,9 @@ $(function () {
     dataType: "json",
     caches: false,
     success: function (data) {
-      console.log("jsondata", data)
       for (var x of data.hall) {
         arr_hall.push(x)
       }
-      console.log("arr_hall", arr_hall)
     }
   });
   pano.on('changenode', function () {
@@ -21,14 +19,22 @@ $(function () {
 });
 
 function showmodal() {
-  console.log("test")
   var id = pano.getVariableValue('var_id')
-  console.log(id)
-  // var myModal = new bootstrap.Modal(document.getElementById('' + id + ''))
-  // var myModal = document.getElementById(''+id+'') // relatedTarget
-  // myModal.show()
-  // $('#'+id+'').show()
   $('#' + id + '').modal('toggle')
+}
+function openbtnlink(link){
+  var tmp 
+  if(link == null){
+    tmp = pano.getVariableValue('var_id')
+  } else {
+    tmp = link
+  }
+  window.open(tmp, '_blank').focus()
+}
+
+//function pindah spot
+function openNode(id){
+  pano.openNext('{'+id+'}')
 }
 
 $('.modal').each(function () {
@@ -118,10 +124,6 @@ function showTooltips() {
     //     $('#' + hs + '').append('' +btnlink+ '')
     // });
   }
-}
-
-function openbtnlink(link){
-  window.open(link, '_blank').focus()
 }
 
 initFireBase();
