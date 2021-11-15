@@ -227,7 +227,7 @@
     <hotspots width="180" wordwrap="1" height="20">
       <label width="180" wordwrap="1" border="1" borderalpha="1" borderradius="1" textcolor="0x000000" backgroundcolor="0xffffff" background="1" bordercolor="0x000000" enabled="1" backgroundalpha="1" textalpha="1" height="20"/>
       <polystyle mode="0" borderalpha="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff" backgroundalpha="0.25098" handcursor="1"/>
-      <hotspot title="" skinid="ht_node_75" description="" target="" pan="-232.93" tilt="-12" id="Point01" url="{node12}"/>
+      <hotspot title="" skinid="ht_node_75" description="" target="" pan="-232.93" tilt="-12" id="Point01" url="{node6}"/>
       <hotspot title="" skinid="ht_node_75" description="" target="" pan="-139.86" tilt="-14" id="Point02" url="{node2}"/>
       <hotspot title="" skinid="ht_node_75" description="" target="" pan="-94.92" tilt="-14" id="Point03" url="{node9}"/>
       <hotspot title="" skinid="ht_poster" description="modal-poster-2" target="_blank" pan="-0.53" tilt="3.51" id="Point04" url=""/>
