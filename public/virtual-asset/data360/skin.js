@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 6.1.10/18007
 // Filename: structure_test.ggsk
-// Generated 2021-11-14T23:46:28
+// Generated 2021-11-15T07:01:26
 
 function pano2vrSkin(player,base) {
 	player.addVariable('var_id', 0, "");
@@ -1516,12 +1516,8 @@ function pano2vrSkin(player,base) {
 			return me.ggNodeId;
 		}
 		me._rectangle_14.onclick=function (e) {
-			player.setVariableValue('hs_title', me.hotspot.description);
-			me._tooltip0.ggVisible = !me._tooltip0.ggVisible;
-			var flag=me._tooltip0.ggVisible;
-			me._tooltip0.style[domTransition]='none';
-			me._tooltip0.style.visibility=((flag)&&(Number(me._tooltip0.style.opacity)>0||!me._tooltip0.style.opacity))?'inherit':'hidden';
-			showTooltips();
+			player.setVariableValue('var_id', me.hotspot.description);
+			openbtnlink();
 		}
 		me._rectangle_14.ggUpdatePosition=function (useTransition) {
 			if (useTransition==='undefined') {
@@ -1580,12 +1576,8 @@ function pano2vrSkin(player,base) {
 			return me.ggNodeId;
 		}
 		me._svg_32.onclick=function (e) {
-			player.setVariableValue('hs_title', me.hotspot.title);
-			me._tooltip0.ggVisible = !me._tooltip0.ggVisible;
-			var flag=me._tooltip0.ggVisible;
-			me._tooltip0.style[domTransition]='none';
-			me._tooltip0.style.visibility=((flag)&&(Number(me._tooltip0.style.opacity)>0||!me._tooltip0.style.opacity))?'inherit':'hidden';
-			showTooltips();
+			player.setVariableValue('var_id', me.hotspot.description);
+			openbtnlink();
 		}
 		me._svg_32.ggUpdatePosition=function (useTransition) {
 			if (useTransition==='undefined') {

@@ -3,8 +3,8 @@ var arr_hall = []
 $(function () {
   $.ajax({
     type: "get",
-    // url: location.href + "virtual-asset/js/hall_link.json",
-    url: "virtual-asset/js/hall_link.json",
+    url: location.href + "virtual-asset/js/hall_link.json",
+    // url: "virtual-asset/js/hall_link.json",
     dataType: "json",
     caches: false,
     success: function (data) {
