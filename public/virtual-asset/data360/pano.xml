@@ -16,10 +16,10 @@
       <label width="180" wordwrap="1" border="1" borderalpha="1" borderradius="1" textcolor="0x000000" backgroundcolor="0xffffff" background="1" bordercolor="0x000000" enabled="1" backgroundalpha="1" textalpha="1" height="20"/>
       <polystyle mode="0" borderalpha="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff" backgroundalpha="0.25098" handcursor="1"/>
       <hotspot title="Exhibition Hall" skinid="ht_lobby_url_node" description="exhibition_hall" target="" pan="-358.3" tilt="-10.03" id="Point01" url="{node2}"/>
-      <hotspot title="Concurrent Session&#xa;2" skinid="ht_lobby_url" description="http://fhcisummit.com/conference/2/id" target="s" pan="-333.48" tilt="2.87" id="lobby_url_1" url=""/>
-      <hotspot title="Plenary Hall" skinid="ht_lobby_url_plenary" description="&lt;div id=&quot;plenary&quot; class=&quot;btn-group-vertical w-100&quot;>&#xa;&lt;/div>" target="_blank" pan="-349.08" tilt="3.17" id="lobby_url_2" url=""/>
-      <hotspot title="Concurrent Session 1" skinid="ht_lobby_url" description="http://fhcisummit.com/conference/1/id" target="_blank" pan="-9.6" tilt="3.31" id="lobby_url_3" url=""/>
-      <hotspot title="Concurrent Session&#xa;3" skinid="ht_lobby_url" description="http://fhcisummit.com/conference/3/id&#xa;" target="_blank" pan="-25.36" tilt="3.02" id="lobby_url_4" url=""/>
+      <hotspot title="Concurrent Session&#xa;2" skinid="ht_lobby_url" description="http://fhcisummit.com/conference/2/id" target="s" pan="-323.29" tilt="4.5" id="lobby_url_1" url=""/>
+      <hotspot title="Plenary Hall" skinid="ht_lobby_url_plenary" description="&lt;div id=&quot;plenary&quot; class=&quot;btn-group-vertical w-100&quot;>&#xa;&lt;/div>" target="_blank" pan="-344.42" tilt="4.5" id="lobby_url_2" url=""/>
+      <hotspot title="Concurrent Session 1" skinid="ht_lobby_url" description="http://fhcisummit.com/conference/1/id" target="_blank" pan="-13.7" tilt="4.5" id="lobby_url_3" url=""/>
+      <hotspot title="Concurrent Session&#xa;3" skinid="ht_lobby_url" description="http://fhcisummit.com/conference/3/id&#xa;" target="_blank" pan="-35.1" tilt="4.5" id="lobby_url_4" url=""/>
       <hotspot title="" skinid="ht_node_75" description="" target="" pan="-54.44" tilt="-19.26" id="Point03" url="{node10}"/>
       <hotspot title="" skinid="ht_photobooth" description="https://fhcisummit.com/photo-booth" target="_blank" pan="-311.58" tilt="-6.98" id="Point02" url=""/>
     </hotspots>
