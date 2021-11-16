@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tour apprev="18007" appversion="6.1.10" start="node3">
   <panorama hideabout="1" id="node3">
-    <input width="500" leveltilesize="1024" leveltileurl="tiles/node3/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" levelbiashidpi="1.000" levelingroll="0" overlap="1" height="500" levelbias="0.400">
-      <level width="500" preload="1" predecode="1" height="500"/>
+    <input width="1000" leveltilesize="1024" leveltileurl="tiles/node3/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" levelbiashidpi="1.000" levelingroll="0" overlap="1" height="1000" levelbias="0.400">
+      <level width="1000" preload="0" predecode="0" height="1000"/>
+      <level width="500" preload="0" predecode="0" height="500"/>
+      <level width="250" preload="0" predecode="0" height="250"/>
+      <level width="125" preload="1" predecode="1" height="125"/>
       <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="0" fovmode="0">
@@ -32,8 +35,11 @@
     </control>
   </panorama>
   <panorama hideabout="1" id="node2">
-    <input width="500" leveltilesize="1024" leveltileurl="tiles/node2/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" levelbiashidpi="1.000" levelingroll="0" overlap="1" height="500" levelbias="0.400">
-      <level width="500" preload="1" predecode="1" height="500"/>
+    <input width="1000" leveltilesize="1024" leveltileurl="tiles/node2/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" levelbiashidpi="1.000" levelingroll="0" overlap="1" height="1000" levelbias="0.400">
+      <level width="1000" preload="0" predecode="0" height="1000"/>
+      <level width="500" preload="0" predecode="0" height="500"/>
+      <level width="250" preload="0" predecode="0" height="250"/>
+      <level width="125" preload="1" predecode="1" height="125"/>
       <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="0" fovmode="0">
@@ -62,65 +68,12 @@
       <menulink text="Powered by 3GOMedia" url="3gomedia.com"/>
     </control>
   </panorama>
-  <panorama hideabout="1" id="node4">
-    <input width="1000" leveltilesize="1024" leveltileurl="tiles/node4/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" levelbiashidpi="1.000" levelingroll="0" overlap="1" height="1000" levelbias="0.400">
-      <level width="1000" preload="1" predecode="1" height="1000"/>
-      <preview color="0x808080" strip="1"/>
-    </input>
-    <view pannorth="0" fovmode="0">
-      <start projection="4" fov="75" pan="0" tilt="0"/>
-      <flyin projection="9" fov="170" pan="0" tilt="-90"/>
-      <min fov="2" pan="0" tilt="-90"/>
-      <max fov="120" fovfisheye="360" pan="360" tilt="90" fovstereographic="270" scaletofit="1"/>
-    </view>
-    <userdata tags="Desktop" title="Basic RGB" nodeid="node4" description="" comment="" heading="0" source="" copyright="" longitude="" author="" datetime="11/4/2021 2:44 PM" info="" customnodeid="" latitude=""/>
-    <hotspots width="180" wordwrap="1" height="20">
-      <label width="180" wordwrap="1" border="1" borderalpha="1" borderradius="1" textcolor="0x000000" backgroundcolor="0xffffff" background="1" bordercolor="0x000000" enabled="1" backgroundalpha="1" textalpha="1" height="20"/>
-      <polystyle mode="0" borderalpha="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff" backgroundalpha="0.25098" handcursor="1"/>
-      <hotspot title="modal-info-0" skinid="ht_info" description="modal-info-0" target="_blank" pan="-319.76" tilt="26.88" id="Point01" url=""/>
-      <hotspot title="modal-info-1" skinid="ht_info" description="modal-info-1" target="_blank" pan="-333.49" tilt="30.87" id="Point02" url=""/>
-      <hotspot title="modal-info-2" skinid="ht_info" description="modal-info-2" target="_blank" pan="9.61" tilt="33.22" id="Point03" url=""/>
-      <hotspot title="modal-info-3" skinid="ht_info" description="modal-info-3" target="_blank" pan="-369.47" tilt="33.3" id="Point04" url=""/>
-      <hotspot title="modal-info-4" skinid="ht_info" description="modal-info-4" target="_blank" pan="-26.85" tilt="30.56" id="Point05" url=""/>
-      <hotspot title="modal-info-5" skinid="ht_info" description="modal-info-5" target="_blank" pan="-39.73" tilt="27.16" id="Point06" url=""/>
-      <hotspot title="modal-contact-0" skinid="ht_contact" description="modal-contact-0" target="_blank" pan="-319.99" tilt="14.46" id="Point07" url=""/>
-      <hotspot title="modal-contact-1" skinid="ht_contact" description="modal-contact-1" target="_blank" pan="-333.24" tilt="16.57" id="Point08" url=""/>
-      <hotspot title="modal-contact-2" skinid="ht_contact" description="modal-contact-2" target="_blank" pan="-350.2" tilt="17.83" id="Point09" url=""/>
-      <hotspot title="modal-contact-3" skinid="ht_contact" description="modal-contact-3" target="_blank" pan="-9.21" tilt="17.85" id="Point10" url=""/>
-      <hotspot title="modal-contact-4" skinid="ht_contact" description="modal-contact-4" target="_blank" pan="-26.44" tilt="16.45" id="Point11" url=""/>
-      <hotspot title="modal-contact-5" skinid="ht_contact" description="modal-contact-5" target="_blank" pan="-39.78" tilt="14.37" id="Point12" url=""/>
-      <hotspot title="modal-gallery-0" skinid="ht_gallery" description="modal-gallery-0" target="_blank" pan="-319.87" tilt="-0.23" id="Point13" url=""/>
-      <hotspot title="modal-gallery-1" skinid="ht_gallery" description="modal-gallery-1" target="_blank" pan="-333.08" tilt="-0.09" id="Point14" url=""/>
-      <hotspot title="modal-gallery-2" skinid="ht_gallery" description="modal-gallery-2" target="_blank" pan="-350.39" tilt="-0.1" id="Point15" url=""/>
-      <hotspot title="modal-gallery-3" skinid="ht_gallery" description="modal-gallery-3" target="_blank" pan="-9.22" tilt="-0.1" id="Point16" url=""/>
-      <hotspot title="modal-gallery-4" skinid="ht_gallery" description="modal-gallery-4" target="_blank" pan="-26.61" tilt="-0.26" id="Point17" url=""/>
-      <hotspot title="modal-gallery-5" skinid="ht_gallery" description="modal-gallery-5" target="_blank" pan="-39.89" tilt="-0.08" id="Point18" url=""/>
-      <hotspot title="modal-poster-0" skinid="ht_poster" description="modal-poster-0" target="_blank" pan="-319.75" tilt="-14.56" id="Point19" url=""/>
-      <hotspot title="modal-poster-1" skinid="ht_poster" description="modal-poster-1" target="_blank" pan="-333.24" tilt="-16.9" id="Point20" url=""/>
-      <hotspot title="modal-poster-2" skinid="ht_poster" description="modal-poster-2" target="_blank" pan="-350.39" tilt="-18.37" id="Point21" url=""/>
-      <hotspot title="modal-poster-3" skinid="ht_poster" description="modal-poster-3" target="_blank" pan="-9.21" tilt="-18.4" id="Point22" url=""/>
-      <hotspot title="modal-poster-4" skinid="ht_poster" description="modal-poster-4" target="_blank" pan="-26.6" tilt="-16.76" id="Point23" url=""/>
-      <hotspot title="modal-poster-5" skinid="ht_poster" description="modal-poster-5" target="_blank" pan="-39.78" tilt="-14.66" id="Point24" url=""/>
-      <hotspot title="modal-youtube-0" skinid="ht_youtube" description="modal-youtube-0" target="_blank" pan="-320" tilt="-27.35" id="Point25" url=""/>
-      <hotspot title="modal-youtube-1" skinid="ht_youtube" description="modal-youtube-1" target="_blank" pan="-333.25" tilt="-30.96" id="Point26" url=""/>
-      <hotspot title="modal-youtube-2" skinid="ht_youtube" description="modal-youtube-2" target="_blank" pan="-350" tilt="-33.63" id="Point27" url=""/>
-      <hotspot title="modal-youtube-3" skinid="ht_youtube" description="modal-youtube-3" target="_blank" pan="-9.41" tilt="-33.68" id="Point28" url=""/>
-      <hotspot title="modal-youtube-4" skinid="ht_youtube" description="modal-youtube-4" target="_blank" pan="-26.44" tilt="-31.16" id="Point29" url=""/>
-      <hotspot title="modal-youtube-5" skinid="ht_youtube" description="modal-youtube-5" target="_blank" pan="-39.79" tilt="-27.18" id="Point30" url=""/>
-      <hotspot title="Lobby" skinid="ht_modal_test" description="" target="" pan="-49.39" tilt="-0.19" id="Point31" url="{node3}"/>
-      <hotspot title="Main Hall" skinid="ht_node" description="" target="" pan="-310.3" tilt="0.01" id="Point32" url="{node2}"/>
-    </hotspots>
-    <media/>
-    <transition zoomafterinfov="110" zoomafteroutfov="20" zoomin="6" softedge="0" zoomout="2" type="crossdissolve" blendcolor="0x000000" zoomspeed="3" enabled="1" zoomfov="50" blendtime="0.5" zoomoutpause="0"/>
-    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>
-    <control simulatemass="1" rubberband="0" lockedkeyboard="0" lockedmouse="0" lockedwheel="0" contextfullscreen="0" invertwheel="0" invertcontrol="1" dblclickfullscreen="0" contextprojections="1" hideabout="1" speedwheel="1" sensitivity="8" lockedkeyboardzoom="0">
-      <menulink text="Develop by IntiveStudio" url="intivestudio.com"/>
-      <menulink text="Powered by 3GOMedia" url="3gomedia.com"/>
-    </control>
-  </panorama>
   <panorama hideabout="1" id="node9">
-    <input width="500" leveltilesize="1024" leveltileurl="tiles/node9/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" levelbiashidpi="1.000" levelingroll="0" overlap="1" height="500" levelbias="0.400">
-      <level width="500" preload="1" predecode="1" height="500"/>
+    <input width="1000" leveltilesize="1024" leveltileurl="tiles/node9/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" levelbiashidpi="1.000" levelingroll="0" overlap="1" height="1000" levelbias="0.400">
+      <level width="1000" preload="0" predecode="0" height="1000"/>
+      <level width="500" preload="0" predecode="0" height="500"/>
+      <level width="250" preload="0" predecode="0" height="250"/>
+      <level width="125" preload="1" predecode="1" height="125"/>
       <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="0" fovmode="0">
@@ -151,8 +104,11 @@
     </control>
   </panorama>
   <panorama hideabout="1" id="node10">
-    <input width="500" leveltilesize="1024" leveltileurl="tiles/node10/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" levelbiashidpi="1.000" levelingroll="0" overlap="1" height="500" levelbias="0.400">
-      <level width="500" preload="1" predecode="1" height="500"/>
+    <input width="1000" leveltilesize="1024" leveltileurl="tiles/node10/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" levelbiashidpi="1.000" levelingroll="0" overlap="1" height="1000" levelbias="0.400">
+      <level width="1000" preload="0" predecode="0" height="1000"/>
+      <level width="500" preload="0" predecode="0" height="500"/>
+      <level width="250" preload="0" predecode="0" height="250"/>
+      <level width="125" preload="1" predecode="1" height="125"/>
       <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="0" fovmode="0">
@@ -181,8 +137,11 @@
     </control>
   </panorama>
   <panorama hideabout="1" id="node6">
-    <input width="500" leveltilesize="1024" leveltileurl="tiles/node6/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" levelbiashidpi="1.000" levelingroll="0" overlap="1" height="500" levelbias="0.400">
-      <level width="500" preload="1" predecode="1" height="500"/>
+    <input width="1000" leveltilesize="1024" leveltileurl="tiles/node6/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" levelbiashidpi="1.000" levelingroll="0" overlap="1" height="1000" levelbias="0.400">
+      <level width="1000" preload="0" predecode="0" height="1000"/>
+      <level width="500" preload="0" predecode="0" height="500"/>
+      <level width="250" preload="0" predecode="0" height="250"/>
+      <level width="125" preload="1" predecode="1" height="125"/>
       <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="0" fovmode="0">
@@ -213,8 +172,11 @@
     </control>
   </panorama>
   <panorama hideabout="1" id="node12">
-    <input width="500" leveltilesize="1024" leveltileurl="tiles/node12/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" levelbiashidpi="1.000" levelingroll="0" overlap="1" height="500" levelbias="0.400">
-      <level width="500" preload="1" predecode="1" height="500"/>
+    <input width="1000" leveltilesize="1024" leveltileurl="tiles/node12/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" levelbiashidpi="1.000" levelingroll="0" overlap="1" height="1000" levelbias="0.400">
+      <level width="1000" preload="0" predecode="0" height="1000"/>
+      <level width="500" preload="0" predecode="0" height="500"/>
+      <level width="250" preload="0" predecode="0" height="250"/>
+      <level width="125" preload="1" predecode="1" height="125"/>
       <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="0" fovmode="0">
@@ -245,8 +207,11 @@
     </control>
   </panorama>
   <panorama hideabout="1" id="node8">
-    <input width="500" leveltilesize="1024" leveltileurl="tiles/node8/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" levelbiashidpi="1.000" levelingroll="0" overlap="1" height="500" levelbias="0.400">
-      <level width="500" preload="1" predecode="1" height="500"/>
+    <input width="1000" leveltilesize="1024" leveltileurl="tiles/node8/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" levelbiashidpi="1.000" levelingroll="0" overlap="1" height="1000" levelbias="0.400">
+      <level width="1000" preload="0" predecode="0" height="1000"/>
+      <level width="500" preload="0" predecode="0" height="500"/>
+      <level width="250" preload="0" predecode="0" height="250"/>
+      <level width="125" preload="1" predecode="1" height="125"/>
       <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="0" fovmode="0">
@@ -277,8 +242,11 @@
     </control>
   </panorama>
   <panorama hideabout="1" id="node7">
-    <input width="500" leveltilesize="1024" leveltileurl="tiles/node7/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" levelbiashidpi="1.000" levelingroll="0" overlap="1" height="500" levelbias="0.400">
-      <level width="500" preload="1" predecode="1" height="500"/>
+    <input width="1000" leveltilesize="1024" leveltileurl="tiles/node7/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" levelbiashidpi="1.000" levelingroll="0" overlap="1" height="1000" levelbias="0.400">
+      <level width="1000" preload="0" predecode="0" height="1000"/>
+      <level width="500" preload="0" predecode="0" height="500"/>
+      <level width="250" preload="0" predecode="0" height="250"/>
+      <level width="125" preload="1" predecode="1" height="125"/>
       <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="0" fovmode="0">
