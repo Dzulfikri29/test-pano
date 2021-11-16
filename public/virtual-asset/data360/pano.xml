@@ -227,7 +227,7 @@
       <hotspot title="" skinid="ht_node_75" description="" target="" pan="-265.82" tilt="-7.6" id="Point01" url="{node3}"/>
       <hotspot title="" skinid="ht_node_75" description="" target="" pan="-149.9" tilt="-14.12" id="Point02" url="{node2}"/>
       <hotspot title="" skinid="ht_node_75" description="" target="" pan="-89.78" tilt="-14" id="Point03" url="{node7}"/>
-      <hotspot title="" skinid="ht_youtube" description="modal-gallery-5" target="_blank" pan="-334.53" tilt="2.93" id="Point04" url=""/>
+      <hotspot title="" skinid="ht_youtube" description="modal-youtube-5" target="_blank" pan="-334.53" tilt="2.93" id="Point04" url=""/>
       <hotspot title="" skinid="ht_poster" description="modal-poster-5" target="_blank" pan="-357.84" tilt="3.37" id="Point05" url=""/>
       <hotspot title="" skinid="ht_contact" description="modal-contact-5" target="_blank" pan="-328.49" tilt="-5.31" id="Point06" url=""/>
       <hotspot title="" skinid="ht_info" description="modal-info-5" target="_blank" pan="-306.52" tilt="-5.58" id="Point07" url=""/>
