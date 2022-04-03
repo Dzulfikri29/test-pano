@@ -1,0 +1,56 @@
+{
+  "hall" : [
+    {
+      "hs_id" : "lobby_url_1",
+      "link" : [
+        {
+          "lang" : "Bahasa",
+          "link" : "http://fhcisummit.com/conference/1/id"
+        },
+        {
+          "lang" : "English",
+          "link" : "http://fhcisummit.com/conference/1/en"
+        }
+      ]
+    },
+    {
+      "hs_id" : "plenary",
+      "link" : [
+        {
+          "lang" : "Bahasa",
+          "link" : "http://fhcisummit.com/conference/2/id"
+        },
+        {
+          "lang" : "English",
+          "link" : "http://fhcisummit.com/conference/2/en"
+        }
+      ]
+    },
+    {
+      "hs_id" : "lobby_url_3",
+      "link" : [
+        {
+          "lang" : "Bahasa",
+          "link" : "http://fhcisummit.com/conference/3/id"
+        },
+        {
+          "lang" : "English",
+          "link" : "http://fhcisummit.com/conference/3/en"
+        }
+      ]
+    },
+    {
+      "hs_id" : "lobby_url_4",
+      "link" : [
+        {
+          "lang" : "Bahasa",
+          "link" : "http://fhcisummit.com/conference/4/id"
+        },
+        {
+          "lang" : "English",
+          "link" : "http://fhcisummit.com/conference/4/en"
+        }
+      ]
+    }
+  ]
+}
